@@ -1,7 +1,7 @@
 :root {
   --primary-color: #4dafa9;
   --secondary-color: #4d85af;
-  --tertiary-color: #4daf78;
+  --tertiary-color: rgb(77, 175, 120);
 }
 
 body {
@@ -25,10 +25,17 @@ h3 {
   font-size: 16px;
 }
 
+a,
 p {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
+}
+
+.learn-more {
+  color: var(--tertiary-color);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn-primary {
