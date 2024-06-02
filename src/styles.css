@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #4dafa9;
+  --secondary-color: #4d85af;
+  --tertiary-color: #4daf78;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 5%;
@@ -23,4 +29,49 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #2f6b67;
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: #29475d;
+}
+
+.btn-tertiary {
+  background: var(--tertiary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-tertiary:hover {
+  background: #295d40;
 }
