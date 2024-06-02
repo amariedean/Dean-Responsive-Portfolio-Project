@@ -37,9 +37,10 @@ p {
   color: white;
   font-size: 15px;
   line-height: 26px;
-  padding: 15px 30px;
+  padding: 15px 25px;
   text-decoration: none;
   cursor: pointer;
+  text-align: center !important;
 }
 
 .btn-primary:hover {
@@ -52,9 +53,10 @@ p {
   color: white;
   font-size: 15px;
   line-height: 26px;
-  padding: 15px 30px;
+  padding: 15px 25px;
   text-decoration: none;
   cursor: pointer;
+  text-align: center !important;
 }
 
 .btn-secondary:hover {
@@ -67,11 +69,16 @@ p {
   color: white;
   font-size: 15px;
   line-height: 26px;
-  padding: 15px 30px;
+  padding: 15px 25px;
   text-decoration: none;
   cursor: pointer;
+  text-align: center !important;
 }
 
 .btn-tertiary:hover {
   background: #295d40;
+}
+
+.selfie {
+  max-width: 100%;
 }
