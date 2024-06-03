@@ -4,6 +4,26 @@
   --tertiary-color: rgb(77, 175, 120);
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .btn-tertiary {
+    font-size: 16px;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 10%;
@@ -88,6 +108,10 @@ p {
 
 .selfie {
   max-width: 100%;
-  border-radius: 4px;
-  margin: 0px;
+  margin: 5px;
+}
+
+.project-thumbnail {
+  display: block;
+  margin: auto;
 }
