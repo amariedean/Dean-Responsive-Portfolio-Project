@@ -2,47 +2,35 @@
   --primary-color: #4dafa9;
   --secondary-color: #4d85af;
   --tertiary-color: rgb(77, 175, 120);
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 18px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  .btn-primary,
-  .btn-secondary,
-  .btn-tertiary {
-    font-size: 16px;
-  }
+  --font-family: "Montserrat", sans-serif;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  margin: 10%;
+  font-family: var(--font-family);
+  margin-bottom: 5%;
+}
+
+main {
+  font-family: var(--font-family);
+  margin-top: 5%;
 }
 
 h1 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 36px;
+  margin-bottom: 2px;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 a,
@@ -56,6 +44,10 @@ p {
   color: var(--tertiary-color);
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.learn-more:hover {
+  color: #295d40;
 }
 
 .btn-primary {
@@ -107,11 +99,26 @@ p {
 }
 
 .selfie {
-  max-width: 100%;
-  margin: 5px;
+  width: 100%;
+  padding-top: 5px;
 }
 
 .project-thumbnail {
   display: block;
   margin: auto;
+}
+
+.nav-brand {
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 40px;
 }
