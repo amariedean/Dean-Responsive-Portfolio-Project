@@ -167,9 +167,9 @@ b {
 }
 
 .contact-box {
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 20px;
+  border: #333333 1px dotted;
+  border-radius: 4px;
+  padding: 40px;
   max-width: 100%;
   text-align: center;
 }
