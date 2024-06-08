@@ -1,8 +1,17 @@
 :root {
   --primary-color: #4dafa9;
   --secondary-color: #4d85af;
-  --tertiary-color: rgb(77, 175, 120);
+  --tertiary-color: #4daf78;
   --font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width < 600px) {
+  .selfie {
+    display: block;
+    margin: 0 auto;
+    max-width: 476px;
+    padding-top: 5px;
+  }
 }
 
 body {
@@ -13,6 +22,8 @@ body {
 main {
   font-family: var(--font-family);
   margin-top: 5%;
+  margin: 40px auto;
+  display: block;
 }
 
 h1 {
@@ -30,7 +41,7 @@ h2 {
 h3 {
   font-weight: 200;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 a {
@@ -44,6 +55,14 @@ a:hover {
   color: #295d40;
 }
 
+b {
+  font-weight: 600;
+}
+
+.navigation-links {
+  margin: 0px 1px;
+}
+
 .main-content {
   font-weight: normal;
   font-size: 12px;
@@ -53,7 +72,9 @@ a:hover {
 .hero-content {
   font-weight: normal;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 24px;
+  padding: 1%;
+  hyphens: auto;
 }
 
 .learn-more {
@@ -70,9 +91,9 @@ a:hover {
   background: var(--primary-color);
   border-radius: 4px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
-  padding: 14px 22px;
+  padding: 14px 20px;
   text-decoration: none;
   cursor: pointer;
   text-align: center !important;
@@ -87,9 +108,9 @@ a:hover {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
-  padding: 14px 22px;
+  padding: 14px 20px;
   text-decoration: none;
   cursor: pointer;
   text-align: center !important;
@@ -104,9 +125,9 @@ a:hover {
   background: var(--tertiary-color);
   border-radius: 4px;
   color: white;
-  font-size: 15px;
-  line-height: 26px;
-  padding: 14px 22px;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 20px;
   text-decoration: none;
   cursor: pointer;
   text-align: center !important;
@@ -120,6 +141,9 @@ a:hover {
 .selfie {
   width: 100%;
   padding-top: 5px;
+  max-width: 476px;
+  display: block;
+  margin: 0 auto;
 }
 
 .project-thumbnail {
@@ -140,4 +164,12 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-left: 40px;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
 }
