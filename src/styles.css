@@ -59,6 +59,10 @@ b {
   font-weight: 600;
 }
 
+i {
+  color: #8f8f8f;
+}
+
 .navigation-links {
   margin: 0px 1px;
 }
