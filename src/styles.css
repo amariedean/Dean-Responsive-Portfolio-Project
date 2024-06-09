@@ -62,6 +62,11 @@ i {
   color: #8f8f8f;
 }
 
+footer {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
 .navigation-links {
   margin: 0px 1px;
 }
@@ -77,6 +82,23 @@ i {
   font-size: 16px;
   line-height: 28px;
   padding: 1%;
+  hyphens: auto;
+}
+
+.footer-content {
+  color: #888888;
+  font-weight: 300;
+  font-size: 10px;
+  text-align: center;
+}
+
+.contact-box {
+  border: #c1c1c1 2px dotted;
+  border-radius: 4px;
+  padding: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
   hyphens: auto;
 }
 
@@ -167,11 +189,4 @@ i {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-left: 40px;
-}
-
-.contact-box {
-  border: #c1c1c1 2px dotted;
-  border-radius: 4px;
-  padding: 45px;
-  text-align: center;
 }
