@@ -47,7 +47,6 @@ h3 {
 a {
   color: var(--tertiary-color);
   font-weight: normal;
-  font-size: 14px;
   line-height: 18px;
 }
 
@@ -74,9 +73,9 @@ i {
 }
 
 .hero-content {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
   padding: 1%;
   hyphens: auto;
 }
@@ -171,9 +170,8 @@ i {
 }
 
 .contact-box {
-  border: #333333 1px dotted;
+  border: #c1c1c1 2px dotted;
   border-radius: 4px;
-  padding: 40px;
-  max-width: 100%;
+  padding: 25px;
   text-align: center;
 }
